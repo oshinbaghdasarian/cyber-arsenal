@@ -57,7 +57,7 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed design documentation.
 ### From source
 
 ```bash
-git clone https://github.com/your-org/cyber-arsenal.git
+git clone https://github.com/oshinbaghdasarian/cyber-arsenal.git
 cd cyber-arsenal
 pip install -e .
 ```

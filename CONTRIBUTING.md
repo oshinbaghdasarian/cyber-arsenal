@@ -15,7 +15,7 @@ Thank you for your interest in contributing. This document provides guidelines f
 ## Development setup
 
 ```bash
-git clone https://github.com/your-org/cyber-arsenal.git
+git clone https://github.com/oshinbaghdasarian/cyber-arsenal.git
 cd cyber-arsenal
 pip install -e ".[dev]"  # If dev extras exist
 # or
