@@ -1,21 +1,12 @@
-# Web Security Tools 🌐
+# Web Module
 
-This directory contains Python scripts related to web application security testing.
+**This module has been moved to `cyber_arsenal/web/`.**
 
-## Tools
-- Directory enumeration
-- Subdomain discovery
-- HTTP response analysis
+Use the unified CLI:
 
-## Use Cases
-- Discover hidden directories and files
-- Identify active subdomains
-- Analyze HTTP status codes
+```bash
+python arsenal.py dir-enum -u <url> -w <wordlist>
+python arsenal.py subdomain-scan -d <domain> -w <wordlist>
+```
 
-## Requirements
-- Python 3
-- requests library
-- Kali Linux (recommended)
-
-## Note
-Use these tools only on systems you own or have explicit permission to test.
+See [cyber_arsenal/web/README.md](../cyber_arsenal/web/README.md) for full documentation.

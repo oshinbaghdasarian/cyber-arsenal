@@ -1,0 +1,2 @@
+# Cyber Arsenal - Production dependencies
+requests>=2.28.0

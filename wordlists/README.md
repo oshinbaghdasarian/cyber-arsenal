@@ -13,3 +13,4 @@ Wordlists are NOT included in this repository.
 ## Install SecLists
 ```bash
 sudo apt install seclists
+```

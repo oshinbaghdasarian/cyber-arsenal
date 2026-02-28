@@ -1,0 +1,58 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cyber-arsenal"
+version = "1.0.0"
+description = "A modular Red Team cybersecurity toolkit for penetration testing"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [
+    {name = "oshinbaghdasarian"}
+]
+keywords = ["security", "pentesting", "red-team", "hash-crack", "port-scan", "reconnaissance"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+]
+
+dependencies = [
+    "requests>=2.28.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "black>=23.0",
+    "ruff>=0.1.0",
+]
+
+[project.scripts]
+arsenal = "cyber_arsenal.cli.main:main"
+
+[project.urls]
+Homepage = "https://github.com/your-org/cyber-arsenal"
+Repository = "https://github.com/your-org/cyber-arsenal"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cyber_arsenal*"]
+
+[tool.black]
+line-length = 100
+target-version = ["py310"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

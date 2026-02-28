@@ -1,27 +1,12 @@
-# Network Security Tools 📡
+# Network Module
 
-This directory contains Python-based tools focused on network-level security testing.
+**This module has been moved to `cyber_arsenal/network/`.**
 
-## Tools
-- TCP port scanner
-- Basic service discovery
-- Network enumeration utilities
+Use the unified CLI:
 
-## Use Cases
-- Identify open ports on a target host
-- Discover exposed network services
-- Perform basic network reconnaissance
+```bash
+python arsenal.py port-scan -t <target> [-p ports]
+python arsenal.py log-analyze -f <logfile>
+```
 
-## Features
-- Custom timeout handling
-- Result logging to file
-- Simple and beginner-friendly code
-
-## Requirements
-- Python 3
-- Socket library (built-in)
-- Kali Linux or any Linux distribution
-
-## Disclaimer
-These tools are intended for educational purposes and authorized network testing only.
-Unauthorized scanning is illegal.
+See [cyber_arsenal/network/README.md](../cyber_arsenal/network/README.md) for full documentation.
